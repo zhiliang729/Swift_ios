@@ -1,0 +1,11 @@
+
+
+//网络请求库  Alamofire
+github "Alamofire/Alamofire" ~> 3.0
+
+//json 解析库
+github "SwiftyJSON/SwiftyJSON"
+
+//轻量级路径工具
+
+
