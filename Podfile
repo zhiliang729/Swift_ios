@@ -28,9 +28,9 @@ source 'https://git.oschina.net/6david9/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'Alamofire', '~> 3.0’  #网络请求库
+pod 'Alamofire'  #网络请求库
 
-pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'  #json解析库
+pod 'SwiftyJSON'  #json解析库
 
 pod 'SwiftFilePath'   #轻量级路径工具
 
