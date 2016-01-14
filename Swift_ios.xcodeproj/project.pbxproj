@@ -17,6 +17,7 @@
 		70379E281C30E591005272CA /* G.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70379E251C30E591005272CA /* G.swift */; };
 		70379E291C30E591005272CA /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70379E261C30E591005272CA /* Global.swift */; };
 		70379E2E1C30EA6F005272CA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70379E2C1C30EA6F005272CA /* BaseViewController.swift */; };
+		7038B7041C438DBC00B07E54 /* CountdownGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7038B7031C438DBC00B07E54 /* CountdownGenerator.swift */; };
 		C40144CEF327625FA605B48A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5F44FFB2A546191A59FAF2 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		70379E251C30E591005272CA /* G.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = G.swift; sourceTree = "<group>"; };
 		70379E261C30E591005272CA /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		70379E2C1C30EA6F005272CA /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		7038B7031C438DBC00B07E54 /* CountdownGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownGenerator.swift; sourceTree = "<group>"; };
 		7F4C043644961C1FFC976E25 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +108,7 @@
 				70379E241C30E591005272CA /* DateUtil.swift */,
 				70379E251C30E591005272CA /* G.swift */,
 				70379E261C30E591005272CA /* Global.swift */,
+				7038B7031C438DBC00B07E54 /* CountdownGenerator.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				70379E201C30E4E6005272CA /* AppDelegate.swift in Sources */,
 				70379E271C30E591005272CA /* DateUtil.swift in Sources */,
 				70379E291C30E591005272CA /* Global.swift in Sources */,
+				7038B7041C438DBC00B07E54 /* CountdownGenerator.swift in Sources */,
 				70379E281C30E591005272CA /* G.swift in Sources */,
 				70379E0F1C30DB9B005272CA /* ViewController.swift in Sources */,
 				70379E2E1C30EA6F005272CA /* BaseViewController.swift in Sources */,
