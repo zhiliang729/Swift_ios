@@ -27,32 +27,7 @@ class ViewController: BaseViewController {
         
         let result = sumOf(1, 2, 3, 4, 5)
         print("\(result)")
-        
-        
-        let xs = ["A", "B", "C"]
-        let generator = CountdownGenerator(array: xs)
-        while let i = generator.next() {
-            print("Element \(i) of the array is \(xs[i])")
-        }
-        
-        let xx = [1, 2, 3, 4]
-        let ge = CountdownGenerator(array: [1, 2, 3])
-        while let i = ge.next() {
-            print("Element \(i) of the array is \(xx[i])")
-        }
-        
-        let xl = ["A", "B", "C"]
-        let reverseSequence = ReverseSequence(array: xl)
-        let reverseGenerator = reverseSequence.generate()
-        while let i = reverseGenerator.next() {
-            print("Index \(i) is \(xl[i])")
-        }
-        
-        for i in ReverseSequence(array: xl) {
-            print("Index \(i) is \(xl[i])")
-        }
-        
-        
+        v
         let addToFour = addTwoNumber(4)
         _ = addToFour(num: 10)
         
