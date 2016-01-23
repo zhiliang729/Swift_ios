@@ -12,11 +12,7 @@ import XCGLogger
 
 // MARK:  - api地址
 //MARK: -- 需要通过环境来设置
-#if DEBUG
-    public let APIDOMAIN = "http://ecangapi.lqxn1015.com"
-#else
-    public let APIDOMAIN = "http://api1.lqxn1015.com"
-#endif
+public let APIDOMAIN = "http://192.168.2.102:5000/"
 
 // MARK:  - 全局消息name
 //MARK: -- 用户登录后的通知

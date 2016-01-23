@@ -17,8 +17,26 @@
 		70379E281C30E591005272CA /* G.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70379E251C30E591005272CA /* G.swift */; };
 		70379E291C30E591005272CA /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70379E261C30E591005272CA /* Global.swift */; };
 		70379E2E1C30EA6F005272CA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70379E2C1C30EA6F005272CA /* BaseViewController.swift */; };
-		C40144CEF327625FA605B48A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5F44FFB2A546191A59FAF2 /* Pods.framework */; };
+		C40144CEF327625FA605B48A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5F44FFB2A546191A59FAF2 /* Pods.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		C65CDAF01C532CB2005ADBDA /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CDAEF1C532CB2005ADBDA /* Task.swift */; };
+		C65CDAF31C532F1E005ADBDA /* HttpRequst.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CDAF21C532F1E005ADBDA /* HttpRequst.swift */; };
+		C65CDAF61C5332C0005ADBDA /* TaskServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CDAF51C5332C0005ADBDA /* TaskServices.swift */; };
+		C6EF316E1C53495900C365B0 /* Pods.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5F44FFB2A546191A59FAF2 /* Pods.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C6EF316F1C53495900C365B0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C6EF316E1C53495900C365B0 /* Pods.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0293CD3E3E6A2B144DE509C9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -36,6 +54,9 @@
 		70379E261C30E591005272CA /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		70379E2C1C30EA6F005272CA /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		7F4C043644961C1FFC976E25 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C65CDAEF1C532CB2005ADBDA /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		C65CDAF21C532F1E005ADBDA /* HttpRequst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequst.swift; sourceTree = "<group>"; };
+		C65CDAF51C5332C0005ADBDA /* TaskServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +100,8 @@
 		70379E0B1C30DB9B005272CA /* Swift_ios */ = {
 			isa = PBXGroup;
 			children = (
+				C65CDAF41C5332AE005ADBDA /* Services */,
+				C65CDAEE1C532C86005ADBDA /* Models */,
 				70379E2A1C30EA2E005272CA /* Base */,
 				70379E231C30E591005272CA /* Utils */,
 				70379E1E1C30E4AE005272CA /* Project */,
@@ -103,6 +126,7 @@
 		70379E231C30E591005272CA /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				C65CDAF11C532F1E005ADBDA /* HTTP */,
 				70379E241C30E591005272CA /* DateUtil.swift */,
 				70379E251C30E591005272CA /* G.swift */,
 				70379E261C30E591005272CA /* Global.swift */,
@@ -135,6 +159,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C65CDAEE1C532C86005ADBDA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C65CDAEF1C532CB2005ADBDA /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C65CDAF11C532F1E005ADBDA /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				C65CDAF21C532F1E005ADBDA /* HttpRequst.swift */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		C65CDAF41C5332AE005ADBDA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C65CDAF51C5332C0005ADBDA /* TaskServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,6 +196,7 @@
 				70379E071C30DB9B005272CA /* Resources */,
 				7759C1BF05F181E29EE67EED /* Embed Pods Frameworks */,
 				1A7EF8F2BAE2C9A56CAD202B /* Copy Pods Resources */,
+				C6EF316F1C53495900C365B0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,12 +306,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C65CDAF01C532CB2005ADBDA /* Task.swift in Sources */,
 				70379E201C30E4E6005272CA /* AppDelegate.swift in Sources */,
 				70379E271C30E591005272CA /* DateUtil.swift in Sources */,
 				70379E291C30E591005272CA /* Global.swift in Sources */,
 				70379E281C30E591005272CA /* G.swift in Sources */,
 				70379E0F1C30DB9B005272CA /* ViewController.swift in Sources */,
+				C65CDAF31C532F1E005ADBDA /* HttpRequst.swift in Sources */,
 				70379E2E1C30EA6F005272CA /* BaseViewController.swift in Sources */,
+				C65CDAF61C5332C0005ADBDA /* TaskServices.swift in Sources */,
 				70379E221C30E508005272CA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,10 +427,13 @@
 			baseConfigurationReference = 0293CD3E3E6A2B144DE509C9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: qiang liu (D2X6F69YN7)";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Swift_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ZL.com.Swift-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "29c5ce91-6133-4e23-9d93-41590ec6f1e7";
 			};
 			name = Debug;
 		};
@@ -387,10 +442,13 @@
 			baseConfigurationReference = 7F4C043644961C1FFC976E25 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: qiang liu (D2X6F69YN7)";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Swift_ios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ZL.com.Swift-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "29c5ce91-6133-4e23-9d93-41590ec6f1e7";
 			};
 			name = Release;
 		};
