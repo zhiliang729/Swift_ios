@@ -23,7 +23,7 @@
 
 #国内镜像 github 太慢
 
-source 'https://git.oschina.net/6david9/Specs.git'
+#source 'https://git.oschina.net/6david9/Specs.git'
 
 platform :ios, '8.0'
 use_frameworks!
