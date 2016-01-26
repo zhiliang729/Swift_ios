@@ -27,7 +27,6 @@ class ViewController: BaseViewController {
         
         let result = sumOf(1, 2, 3, 4, 5)
         print("\(result)")
-        v
         let addToFour = addTwoNumber(4)
         _ = addToFour(num: 10)
         
