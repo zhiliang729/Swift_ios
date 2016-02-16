@@ -17,6 +17,7 @@
 		70379E281C30E591005272CA /* G.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70379E251C30E591005272CA /* G.swift */; };
 		70379E291C30E591005272CA /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70379E261C30E591005272CA /* Global.swift */; };
 		70379E2E1C30EA6F005272CA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70379E2C1C30EA6F005272CA /* BaseViewController.swift */; };
+		70B707FF1C587F9A001C6286 /* InclueRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B707FE1C587F9A001C6286 /* InclueRange.swift */; };
 		C40144CEF327625FA605B48A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5F44FFB2A546191A59FAF2 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		70379E251C30E591005272CA /* G.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = G.swift; sourceTree = "<group>"; };
 		70379E261C30E591005272CA /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		70379E2C1C30EA6F005272CA /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		70B707FE1C587F9A001C6286 /* InclueRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InclueRange.swift; sourceTree = "<group>"; };
 		7F4C043644961C1FFC976E25 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +85,7 @@
 				70379E231C30E591005272CA /* Utils */,
 				70379E1E1C30E4AE005272CA /* Project */,
 				70379E0E1C30DB9B005272CA /* ViewController.swift */,
+				70B707FE1C587F9A001C6286 /* InclueRange.swift */,
 				70379E101C30DB9B005272CA /* Main.storyboard */,
 				70379E131C30DB9B005272CA /* Assets.xcassets */,
 				70379E151C30DB9B005272CA /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70379E201C30E4E6005272CA /* AppDelegate.swift in Sources */,
+				70B707FF1C587F9A001C6286 /* InclueRange.swift in Sources */,
 				70379E271C30E591005272CA /* DateUtil.swift in Sources */,
 				70379E291C30E591005272CA /* Global.swift in Sources */,
 				70379E281C30E591005272CA /* G.swift in Sources */,

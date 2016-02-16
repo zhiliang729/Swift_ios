@@ -18,6 +18,18 @@ class ViewController: BaseViewController {
         return a + num
     }
     
+    let names = ["Chris", "Alex", "Ewa", "Barry", "Daniella"]
+    
+    func backwrd(s1: String, s2: String) -> Bool {
+        return s1 > s2
+    }
+    
+    func someFunctionThatTakesClosure( flot: Float, closure: () -> Void) {
+        
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -30,7 +42,41 @@ class ViewController: BaseViewController {
         let addToFour = addTwoNumber(4)
         _ = addToFour(num: 10)
         
+//        var revered = names.sort(backwrd)
+//        
+//        revered = names.sort({(s1: String, s2: String) -> Bool in
+//            return s1 > s2})
+//        revered = names.sort({s1, s2 in return s1 > s2})
+//        revered = names.sort({s1, s2 in s1 > s2})
+//        revered = names.sort({ $0 > $1})
+//        revered = names.sort(>)
+//        
+//        someFunctionThatTakesClosure(10) { () -> Void in
+//            
+//        }
+//        someFunctionThatTakesClosure{ () -> Void in
+//            
+//        }
+        
+        let digitNames = [
+            0: "Zero", 1: "One", 2: "Two",   3: "Three", 4: "Four",
+            5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine"
+        ]
+        let numbers = [16, 58, 510]
+        
+        let strings:[String] = numbers.map { (var number) -> String in
+            var output = ""
+            while number > 0 {
+                output = digitNames[number % 10]! + output
+                number /= 10
+            }
+            return output
+        }
+        debugPrint("Strings:\(strings)")
+        
     }
+    
+    
     
     func printLog<T>(message: T, file: String = __FILE__, method: String = __FUNCTION__, line: Int = __LINE__) {
         
@@ -70,7 +116,7 @@ class ViewController: BaseViewController {
         func add() {
             y += 5
         }
-        
+            
         add()
         return y
     }
