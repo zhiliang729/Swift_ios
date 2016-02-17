@@ -61,6 +61,8 @@ pod 'ReachabilitySwift', git: 'https://github.com/ashleymills/Reachability.swift
 
 pod 'MJRefresh'
 
+pod 'ReactiveCocoa'
+
 #pod 'ImageScout' #最小代价获取远程图片大小及类型
 
 #pod 'Toucan' # 处理图片大小

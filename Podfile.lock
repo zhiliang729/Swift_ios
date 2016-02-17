@@ -15,6 +15,18 @@ PODS:
   - PySwiftyRegex (0.2.0)
   - RavenSwift (0.4.0)
   - ReachabilitySwift (2.3.3)
+  - ReactiveCocoa (4.0.1):
+    - ReactiveCocoa/UI (= 4.0.1)
+    - Result (~> 1.0.2)
+  - ReactiveCocoa/Core (4.0.1):
+    - ReactiveCocoa/no-arc
+    - Result (~> 1.0.2)
+  - ReactiveCocoa/no-arc (4.0.1):
+    - Result (~> 1.0.2)
+  - ReactiveCocoa/UI (4.0.1):
+    - ReactiveCocoa/Core
+    - Result (~> 1.0.2)
+  - Result (1.0.2)
   - SnapKit (0.18.0)
   - SwiftDate (2.0.2)
   - SwiftFilePath (0.0.6)
@@ -33,6 +45,7 @@ DEPENDENCIES:
   - PySwiftyRegex
   - RavenSwift
   - ReachabilitySwift (from `https://github.com/ashleymills/Reachability.swift`)
+  - ReactiveCocoa
   - SnapKit
   - SwiftDate
   - SwiftFilePath
@@ -60,6 +73,8 @@ SPEC CHECKSUMS:
   PySwiftyRegex: f8a4538611825cce883dafe468fe484aca0e945d
   RavenSwift: a90485acb670b09e29172c15bf8bc5f506d0a325
   ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
+  ReactiveCocoa: f7011630aee4deeb16352fcb1b50d6bde9db4f90
+  Result: dd3dd71af3fa2e262f1a999e14fba2c25ec14f16
   SnapKit: e1f090a6d47b1dd4bd89b73f72b6746a7835ef3c
   SwiftDate: b4f4d0962afe48365ad2800c9850a6626deb9359
   SwiftFilePath: 52c1db61018e0a3941191eb71002cb5cbdaa39e7
