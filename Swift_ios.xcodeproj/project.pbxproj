@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		701562101C740BF2008F0E75 /* CaculatorMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7015620F1C740BF2008F0E75 /* CaculatorMaker.swift */; };
 		70379E0F1C30DB9B005272CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70379E0E1C30DB9B005272CA /* ViewController.swift */; };
 		70379E121C30DB9B005272CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70379E101C30DB9B005272CA /* Main.storyboard */; };
 		70379E141C30DB9B005272CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70379E131C30DB9B005272CA /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		0293CD3E3E6A2B144DE509C9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6F5F44FFB2A546191A59FAF2 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7015620F1C740BF2008F0E75 /* CaculatorMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaculatorMaker.swift; sourceTree = "<group>"; };
 		70379E091C30DB9B005272CA /* Swift_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70379E0E1C30DB9B005272CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		70379E111C30DB9B005272CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				70379E131C30DB9B005272CA /* Assets.xcassets */,
 				70379E151C30DB9B005272CA /* LaunchScreen.storyboard */,
 				70379E181C30DB9B005272CA /* Info.plist */,
+				7015620F1C740BF2008F0E75 /* CaculatorMaker.swift */,
 			);
 			path = Swift_ios;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				70379E291C30E591005272CA /* Global.swift in Sources */,
 				70379E281C30E591005272CA /* G.swift in Sources */,
 				70379E0F1C30DB9B005272CA /* ViewController.swift in Sources */,
+				701562101C740BF2008F0E75 /* CaculatorMaker.swift in Sources */,
 				70379E2E1C30EA6F005272CA /* BaseViewController.swift in Sources */,
 				70379E221C30E508005272CA /* Constants.swift in Sources */,
 			);

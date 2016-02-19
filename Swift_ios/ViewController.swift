@@ -6,6 +6,8 @@
 //  Copyright © 2015年 ZL. All rights reserved.
 //
 
+import UIKit
+import ReactiveCocoa
 
 class ViewController: BaseViewController {
     
@@ -33,6 +35,8 @@ class ViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
         
         let value = calculateStatistics([])
         print("\(value.max) + \(value.min) + \(value.sum)")
@@ -74,6 +78,11 @@ class ViewController: BaseViewController {
         }
         debugPrint("Strings:\(strings)")
         
+        let array = [1, 2, 3, 4, 5]
+        let ava = array.reduce(0.0) { (total, index) -> Float in
+            return total + Float(index)/Float(array.count)
+        }
+        debugPrint("average:\(ava)")
     }
     
     
@@ -132,3 +141,36 @@ class ViewController: BaseViewController {
 }
 
 
+extension NSNumber {
+    class func add(a: NSNumber, b: NSNumber) -> NSNumber {
+        return NSNumber(integer: a.integerValue + b.integerValue)
+    }
+    
+    class func curry(localAdd:(NSNumber, NSNumber) -> NSNumber) {
+        
+    }
+    
+    class func curry2(localAdd:(NSNumber, NSNumber) -> NSNumber) -> (NSNumber -> (NSNumber -> NSNumber)) {
+        return { a in
+            { b in
+                return localAdd(a, b)
+            }
+        }
+    }
+    
+    func curry3<A, B, C>(f:(A, B) -> C) -> (A -> (B -> C)) {
+        return { a in
+            { b in
+                return f(a, b)
+            }
+        }
+    }
+    
+    func curry4<A, B, C>(f:(A, B) -> C) -> (A -> (B -> C)) {
+        return {a in {b in f(a, b) } }
+    }
+    
+    func curry5<A, B, C>(f:(A, B) -> C) -> A -> B -> C {
+        return { a in { b in f(a, b) } }
+    }
+}
