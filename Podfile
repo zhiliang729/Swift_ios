@@ -1,30 +1,13 @@
-#########  gem 源有s3 的资源有的被墙了 换国内的 源
-#########
-#########  gem sources --remove https://rubygems.org/
-#########  gem sources -a http://ruby.taobao.org/
-
-#########  gem sources -l # 保证只有淘宝的源
-#########  sudo gem install cocoapods // 安装cocoapods
-#########  pod --version == 0.38.2 # 请保证版本为0.38.2 否则 Podfile.lock 文件会有冲突
-
-
-#########  pod repo remove master
-#########  pod repo add master https://git.oschina.net/6david9/Specs.git
-#########  pod install --verbose --no-repo-update 安装
-#########  pod update  --verbose --no-repo-update 更新
-#########
-
-
-######### 淘宝的源404了，cocoapods自己的源现在可以了。修改方法
-######### 先gem sources -l 查看有哪些源，都删除gem sources -r 源url
-######### 再执行sudo gem sources -a http://rubygems.org
-######### 注意一定是http，不是https
-######### 升级pod   sudo gem install cocoapods 到0.39.0
-
-#国内镜像 github 太慢
-
-#source 'https://git.oschina.net/6david9/Specs.git'
-
+source 'https://gitcafe.com/akuandev/Specs.git'
+###################################################
+#由于 github 巨慢无比 切换为国内的镜像
+#使用方法
+#pod repo remove master
+#pod repo add master https://gitcafe.com/akuandev/Specs.git
+#pod repo update
+#然后 pod install
+#确保 pod 的版本为 0.39.0
+###################################################
 platform :ios, '8.0'
 use_frameworks!
 

@@ -21,6 +21,7 @@
 		C65CDAF01C532CB2005ADBDA /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CDAEF1C532CB2005ADBDA /* Task.swift */; };
 		C65CDAF31C532F1E005ADBDA /* HttpRequst.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CDAF21C532F1E005ADBDA /* HttpRequst.swift */; };
 		C65CDAF61C5332C0005ADBDA /* TaskServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CDAF51C5332C0005ADBDA /* TaskServices.swift */; };
+		C6B4D30C1C73059A008E72F0 /* BattleShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B4D30B1C73059A008E72F0 /* BattleShip.swift */; };
 		C6EF316E1C53495900C365B0 /* Pods.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5F44FFB2A546191A59FAF2 /* Pods.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		C65CDAEF1C532CB2005ADBDA /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		C65CDAF21C532F1E005ADBDA /* HttpRequst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequst.swift; sourceTree = "<group>"; };
 		C65CDAF51C5332C0005ADBDA /* TaskServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskServices.swift; sourceTree = "<group>"; };
+		C6B4D30B1C73059A008E72F0 /* BattleShip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleShip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				70379E231C30E591005272CA /* Utils */,
 				70379E1E1C30E4AE005272CA /* Project */,
 				70379E0E1C30DB9B005272CA /* ViewController.swift */,
+				C6B4D30B1C73059A008E72F0 /* BattleShip.swift */,
 				70379E101C30DB9B005272CA /* Main.storyboard */,
 				70379E131C30DB9B005272CA /* Assets.xcassets */,
 				70379E151C30DB9B005272CA /* LaunchScreen.storyboard */,
@@ -313,6 +316,7 @@
 				70379E281C30E591005272CA /* G.swift in Sources */,
 				70379E0F1C30DB9B005272CA /* ViewController.swift in Sources */,
 				C65CDAF31C532F1E005ADBDA /* HttpRequst.swift in Sources */,
+				C6B4D30C1C73059A008E72F0 /* BattleShip.swift in Sources */,
 				70379E2E1C30EA6F005272CA /* BaseViewController.swift in Sources */,
 				C65CDAF61C5332C0005ADBDA /* TaskServices.swift in Sources */,
 				70379E221C30E508005272CA /* Constants.swift in Sources */,

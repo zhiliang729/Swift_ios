@@ -1,22 +1,22 @@
 PODS:
-  - Alamofire (3.1.5)
+  - Alamofire (3.2.0)
   - AsyncSwift (1.6.4)
-  - Cent (4.1.0):
-    - Dollar (~> 4.1.0)
-  - Dollar (4.1.0)
+  - Cent (5.0.0):
+    - Dollar (~> 5.0.0)
+  - Dollar (5.0.0)
   - HanekeSwift (0.10.1)
   - Ji (1.2.0):
     - Ji/Ji (= 1.2.0)
   - Ji/Ji (1.2.0):
     - Ji/Ji-libxml
   - Ji/Ji-libxml (1.2.0)
-  - Kingfisher (1.9.3)
+  - Kingfisher (2.0.2)
   - MJRefresh (3.1.0)
   - PySwiftyRegex (0.2.0)
   - RavenSwift (0.4.0)
   - ReachabilitySwift (2.3.3)
-  - SnapKit (0.19.0)
-  - SwiftDate (2.0.2)
+  - SnapKit (0.19.1)
+  - SwiftDate (3.0.1)
   - SwiftFilePath (0.0.6)
   - SwiftyJSON (2.3.2)
   - XCGLogger (3.2)
@@ -49,19 +49,19 @@ CHECKOUT OPTIONS:
     :git: https://github.com/ashleymills/Reachability.swift
 
 SPEC CHECKSUMS:
-  Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
+  Alamofire: 4da478599fccddff361205c8929333d7fe18dceb
   AsyncSwift: 3c90beed237324f1b57e1f1c414dc5501985d208
-  Cent: 9960f0a1963631c6164cdb43bd3344d04b793fe3
-  Dollar: 1ee47922ccdfda5b572c8a4956b08986f1b4c429
+  Cent: 4bfbe6037d911c0491425ae1ff8057404050fbb2
+  Dollar: 310893dd6b3799b9b155e3deb61a0492987e4d03
   HanekeSwift: 08e47d3d0f2899ec58e5d257beba0de619aca9e8
   Ji: ddebb22f9ac445db6e884b66f78ea74fb135fdb7
-  Kingfisher: 9e37d2a78a082dc123bfe8a16de65de85518daae
+  Kingfisher: d6aec1c72f14cd03dc52c5a88f1a66732b180f7d
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
   PySwiftyRegex: f8a4538611825cce883dafe468fe484aca0e945d
   RavenSwift: a90485acb670b09e29172c15bf8bc5f506d0a325
   ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
-  SnapKit: 57c00a21bac67a863f2192e816330f6665585938
-  SwiftDate: b4f4d0962afe48365ad2800c9850a6626deb9359
+  SnapKit: eff58d6e3451bf2f482db2eccf86aecf371dc62d
+  SwiftDate: 0ffc7cdc4e4ddffe44cb9f4ee378e4d68eaba6e7
   SwiftFilePath: 52c1db61018e0a3941191eb71002cb5cbdaa39e7
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
   XCGLogger: da1f341f4bb8979db6e1df64232f04d9698402d4

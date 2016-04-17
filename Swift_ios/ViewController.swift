@@ -6,6 +6,26 @@
 //  Copyright © 2015年 ZL. All rights reserved.
 //
 
+enum Coin: Int {
+    case SilverDollar = 100
+    case HalfDollar = 50
+    case Quarter = 25
+    case Dime = 10
+    case Nickel = 5
+    case Penny = 1
+    
+    static func coinsInDescendingOrder() -> [Coin] {
+        return [
+            Coin.SilverDollar,
+            Coin.HalfDollar,
+            Coin.Quarter,
+            Coin.Dime,
+            Coin.Nickel,
+            Coin.Penny,
+        ]
+    }
+}
+
 
 class ViewController: BaseViewController {
     
