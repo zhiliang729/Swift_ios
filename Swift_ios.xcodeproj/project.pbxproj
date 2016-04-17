@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		701562101C740BF2008F0E75 /* CaculatorMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7015620F1C740BF2008F0E75 /* CaculatorMaker.swift */; };
 		70379E0F1C30DB9B005272CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70379E0E1C30DB9B005272CA /* ViewController.swift */; };
 		70379E121C30DB9B005272CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70379E101C30DB9B005272CA /* Main.storyboard */; };
 		70379E141C30DB9B005272CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70379E131C30DB9B005272CA /* Assets.xcassets */; };
@@ -17,12 +18,17 @@
 		70379E281C30E591005272CA /* G.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70379E251C30E591005272CA /* G.swift */; };
 		70379E291C30E591005272CA /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70379E261C30E591005272CA /* Global.swift */; };
 		70379E2E1C30EA6F005272CA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70379E2C1C30EA6F005272CA /* BaseViewController.swift */; };
+<<<<<<< HEAD
 		C40144CEF327625FA605B48A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5F44FFB2A546191A59FAF2 /* Pods.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		C65CDAF01C532CB2005ADBDA /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CDAEF1C532CB2005ADBDA /* Task.swift */; };
 		C65CDAF31C532F1E005ADBDA /* HttpRequst.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CDAF21C532F1E005ADBDA /* HttpRequst.swift */; };
 		C65CDAF61C5332C0005ADBDA /* TaskServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CDAF51C5332C0005ADBDA /* TaskServices.swift */; };
 		C6B4D30C1C73059A008E72F0 /* BattleShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B4D30B1C73059A008E72F0 /* BattleShip.swift */; };
 		C6EF316E1C53495900C365B0 /* Pods.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5F44FFB2A546191A59FAF2 /* Pods.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+=======
+		70B707FF1C587F9A001C6286 /* InclueRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B707FE1C587F9A001C6286 /* InclueRange.swift */; };
+		C40144CEF327625FA605B48A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5F44FFB2A546191A59FAF2 /* Pods.framework */; };
+>>>>>>> a0f0da20677606dcc2eac3f363f3b5b75f342de4
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +48,7 @@
 /* Begin PBXFileReference section */
 		0293CD3E3E6A2B144DE509C9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6F5F44FFB2A546191A59FAF2 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7015620F1C740BF2008F0E75 /* CaculatorMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaculatorMaker.swift; sourceTree = "<group>"; };
 		70379E091C30DB9B005272CA /* Swift_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70379E0E1C30DB9B005272CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		70379E111C30DB9B005272CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +61,7 @@
 		70379E251C30E591005272CA /* G.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = G.swift; sourceTree = "<group>"; };
 		70379E261C30E591005272CA /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		70379E2C1C30EA6F005272CA /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		70B707FE1C587F9A001C6286 /* InclueRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InclueRange.swift; sourceTree = "<group>"; };
 		7F4C043644961C1FFC976E25 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C65CDAEF1C532CB2005ADBDA /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		C65CDAF21C532F1E005ADBDA /* HttpRequst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequst.swift; sourceTree = "<group>"; };
@@ -108,11 +116,16 @@
 				70379E231C30E591005272CA /* Utils */,
 				70379E1E1C30E4AE005272CA /* Project */,
 				70379E0E1C30DB9B005272CA /* ViewController.swift */,
+<<<<<<< HEAD
 				C6B4D30B1C73059A008E72F0 /* BattleShip.swift */,
+=======
+				70B707FE1C587F9A001C6286 /* InclueRange.swift */,
+>>>>>>> a0f0da20677606dcc2eac3f363f3b5b75f342de4
 				70379E101C30DB9B005272CA /* Main.storyboard */,
 				70379E131C30DB9B005272CA /* Assets.xcassets */,
 				70379E151C30DB9B005272CA /* LaunchScreen.storyboard */,
 				70379E181C30DB9B005272CA /* Info.plist */,
+				7015620F1C740BF2008F0E75 /* CaculatorMaker.swift */,
 			);
 			path = Swift_ios;
 			sourceTree = "<group>";
@@ -311,12 +324,17 @@
 			files = (
 				C65CDAF01C532CB2005ADBDA /* Task.swift in Sources */,
 				70379E201C30E4E6005272CA /* AppDelegate.swift in Sources */,
+				70B707FF1C587F9A001C6286 /* InclueRange.swift in Sources */,
 				70379E271C30E591005272CA /* DateUtil.swift in Sources */,
 				70379E291C30E591005272CA /* Global.swift in Sources */,
 				70379E281C30E591005272CA /* G.swift in Sources */,
 				70379E0F1C30DB9B005272CA /* ViewController.swift in Sources */,
+<<<<<<< HEAD
 				C65CDAF31C532F1E005ADBDA /* HttpRequst.swift in Sources */,
 				C6B4D30C1C73059A008E72F0 /* BattleShip.swift in Sources */,
+=======
+				701562101C740BF2008F0E75 /* CaculatorMaker.swift in Sources */,
+>>>>>>> a0f0da20677606dcc2eac3f363f3b5b75f342de4
 				70379E2E1C30EA6F005272CA /* BaseViewController.swift in Sources */,
 				C65CDAF61C5332C0005ADBDA /* TaskServices.swift in Sources */,
 				70379E221C30E508005272CA /* Constants.swift in Sources */,

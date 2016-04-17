@@ -12,6 +12,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 pod 'Alamofire'  #网络请求库
+pod 'Moya' #对Alamofire的封装
 
 pod 'SwiftyJSON'  #json解析库
 
@@ -43,6 +44,14 @@ pod 'SwiftDate' #date 库
 pod 'ReachabilitySwift', git: 'https://github.com/ashleymills/Reachability.swift' #Reachability in swift
 
 pod 'MJRefresh'
+
+pod 'ReactiveCocoa' # objective-c
+pod 'RxSwift' #swift
+pod 'Moya/RxSwift'
+pod 'Moya/ReactiveCocoa'
+
+
+pod 'Curry'#Currying 柯里化
 
 #pod 'ImageScout' #最小代价获取远程图片大小及类型
 

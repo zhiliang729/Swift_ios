@@ -1,9 +1,16 @@
 PODS:
   - Alamofire (3.2.0)
   - AsyncSwift (1.6.4)
+<<<<<<< HEAD
   - Cent (5.0.0):
     - Dollar (~> 5.0.0)
   - Dollar (5.0.0)
+=======
+  - Cent (4.1.0):
+    - Dollar (~> 4.1.0)
+  - Curry (1.4.0)
+  - Dollar (4.1.0)
+>>>>>>> a0f0da20677606dcc2eac3f363f3b5b75f342de4
   - HanekeSwift (0.10.1)
   - Ji (1.2.0):
     - Ji/Ji (= 1.2.0)
@@ -12,11 +19,34 @@ PODS:
   - Ji/Ji-libxml (1.2.0)
   - Kingfisher (2.0.2)
   - MJRefresh (3.1.0)
+  - Moya (6.1.3):
+    - Moya/Core (= 6.1.3)
+  - Moya/Core (6.1.3):
+    - Alamofire (~> 3.0)
+    - Result (~> 1.0)
   - PySwiftyRegex (0.2.0)
   - RavenSwift (0.4.0)
   - ReachabilitySwift (2.3.3)
+<<<<<<< HEAD
   - SnapKit (0.19.1)
   - SwiftDate (3.0.1)
+=======
+  - ReactiveCocoa (4.0.1):
+    - ReactiveCocoa/UI (= 4.0.1)
+    - Result (~> 1.0.2)
+  - ReactiveCocoa/Core (4.0.1):
+    - ReactiveCocoa/no-arc
+    - Result (~> 1.0.2)
+  - ReactiveCocoa/no-arc (4.0.1):
+    - Result (~> 1.0.2)
+  - ReactiveCocoa/UI (4.0.1):
+    - ReactiveCocoa/Core
+    - Result (~> 1.0.2)
+  - Result (1.0.2)
+  - RxSwift (2.2.0)
+  - SnapKit (0.18.0)
+  - SwiftDate (2.0.2)
+>>>>>>> a0f0da20677606dcc2eac3f363f3b5b75f342de4
   - SwiftFilePath (0.0.6)
   - SwiftyJSON (2.3.2)
   - XCGLogger (3.2)
@@ -25,14 +55,18 @@ DEPENDENCIES:
   - Alamofire
   - AsyncSwift
   - Cent
+  - Curry
   - Dollar
   - HanekeSwift
   - Ji
   - Kingfisher
   - MJRefresh
+  - Moya
   - PySwiftyRegex
   - RavenSwift
   - ReachabilitySwift (from `https://github.com/ashleymills/Reachability.swift`)
+  - ReactiveCocoa
+  - RxSwift
   - SnapKit
   - SwiftDate
   - SwiftFilePath
@@ -45,23 +79,42 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ReachabilitySwift:
+<<<<<<< HEAD
     :commit: ec4b33a7e439e5b203b0cae0f71383ca803ad031
+=======
+    :commit: 8c4fd976e920e45e50388f69f763e1dea36c7955
+>>>>>>> a0f0da20677606dcc2eac3f363f3b5b75f342de4
     :git: https://github.com/ashleymills/Reachability.swift
 
 SPEC CHECKSUMS:
   Alamofire: 4da478599fccddff361205c8929333d7fe18dceb
   AsyncSwift: 3c90beed237324f1b57e1f1c414dc5501985d208
+<<<<<<< HEAD
   Cent: 4bfbe6037d911c0491425ae1ff8057404050fbb2
   Dollar: 310893dd6b3799b9b155e3deb61a0492987e4d03
+=======
+  Cent: 9960f0a1963631c6164cdb43bd3344d04b793fe3
+  Curry: 294533187eedbf52db60a1e70c29b4f5c9f621c0
+  Dollar: 1ee47922ccdfda5b572c8a4956b08986f1b4c429
+>>>>>>> a0f0da20677606dcc2eac3f363f3b5b75f342de4
   HanekeSwift: 08e47d3d0f2899ec58e5d257beba0de619aca9e8
   Ji: ddebb22f9ac445db6e884b66f78ea74fb135fdb7
   Kingfisher: d6aec1c72f14cd03dc52c5a88f1a66732b180f7d
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  Moya: 26b290a8d675c167ea6229ba08e07dce562265a5
   PySwiftyRegex: f8a4538611825cce883dafe468fe484aca0e945d
   RavenSwift: a90485acb670b09e29172c15bf8bc5f506d0a325
   ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
+<<<<<<< HEAD
   SnapKit: eff58d6e3451bf2f482db2eccf86aecf371dc62d
   SwiftDate: 0ffc7cdc4e4ddffe44cb9f4ee378e4d68eaba6e7
+=======
+  ReactiveCocoa: f7011630aee4deeb16352fcb1b50d6bde9db4f90
+  Result: dd3dd71af3fa2e262f1a999e14fba2c25ec14f16
+  RxSwift: b8a749f2204c6c7a5c29b306a9c3bc11d5b87c5b
+  SnapKit: e1f090a6d47b1dd4bd89b73f72b6746a7835ef3c
+  SwiftDate: b4f4d0962afe48365ad2800c9850a6626deb9359
+>>>>>>> a0f0da20677606dcc2eac3f363f3b5b75f342de4
   SwiftFilePath: 52c1db61018e0a3941191eb71002cb5cbdaa39e7
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
   XCGLogger: da1f341f4bb8979db6e1df64232f04d9698402d4
